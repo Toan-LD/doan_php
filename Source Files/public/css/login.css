@@ -1,0 +1,10 @@
+.login-form {
+    width: 45% !important;
+}
+
+h5 {
+    text-align: center;
+    background-color: #343a40;
+    padding: 15px 0;
+    color: #fff !important;
+}

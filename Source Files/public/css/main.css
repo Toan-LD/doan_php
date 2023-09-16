@@ -1,0 +1,99 @@
+@media (min-width: 1200px) {
+    .container-decor {
+        max-width: 1500px;
+    }
+}
+.row-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+h1 {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+h1 .title {
+    color: orangered;
+    display: inline;
+}
+
+.image {
+    width: 250px;  
+    height: auto;  
+    padding: 15px;  
+}
+
+#img-product{
+    width: 100%;
+}
+
+.name {
+    font-size: 20px;
+    width: 270px;
+}
+
+.name a {
+
+}
+
+.name a:hover {
+    text-decoration: none;
+}
+
+.btn-buy {
+    margin-left: 90px;
+    display: inline-block;
+}
+
+.btn-buy-product:hover,
+.pagination .more:hover,
+.btn-add-product:hover {
+    text-decoration: none;
+    background-color: #66B2FF;
+    color: #fff;
+}
+
+.more-product {
+    text-align: center;
+}
+
+.pagination,
+.more-product
+{
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.pagination a,
+.btn-buy-product,
+.btn-add-product,
+.more
+{
+    display: inline-block;
+    margin: 3px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #000;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.more:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #66B2FF;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
